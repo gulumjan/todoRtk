@@ -1,0 +1,32 @@
+.TodoList {
+  .content {
+  }
+  .carts {
+    margin-top: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    .cart {
+      h6 {
+        color: #fff;
+      }
+      img {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 18px;
+      }
+      .btns {
+        display: flex;
+        gap: 12px;
+        button {
+          background: darkblue;
+          padding: 12px 23px;
+          border-radius: 12px;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+}
